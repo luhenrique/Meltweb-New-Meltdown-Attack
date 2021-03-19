@@ -1,0 +1,8 @@
+﻿  Assembling md.asm...
+  stdafx.cpp
+  Meltdown.cpp
+d:\william\程序喵们\工程\ma\kpti-test\meltdown-poc-windows\meltdown\meltdown\meltdown.cpp(134): warning C4477: “printf”: 格式字符串“%02x”需要类型“unsigned int”的参数，但可变参数 1 拥有了类型“::size_t”
+  d:\william\程序喵们\工程\ma\kpti-test\meltdown-poc-windows\meltdown\meltdown\meltdown.cpp(134): note: 请考虑在格式字符串中使用“%zx”
+d:\william\程序喵们\工程\ma\kpti-test\meltdown-poc-windows\meltdown\meltdown\meltdown.cpp(134): warning C4477: “printf”: 格式字符串“%02x”需要类型“unsigned int”的参数，但可变参数 2 拥有了类型“::size_t”
+  d:\william\程序喵们\工程\ma\kpti-test\meltdown-poc-windows\meltdown\meltdown\meltdown.cpp(134): note: 请考虑在格式字符串中使用“%zx”
+  Meltdown.vcxproj -> D:\William\程序喵们\工程\Ma\KPTI-test\Meltdown-PoC-Windows\Meltdown\x64\Debug\Meltdown.exe

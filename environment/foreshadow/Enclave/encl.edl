@@ -1,0 +1,13 @@
+enclave {
+	
+	trusted {
+		public void *enclave_generate_secret( void );
+		public void enclave_destroy_secret( [out] uint8_t cl[64]);
+		public void enclave_reload( [user_check] void *adrs );
+
+        public void  enclave_run(void);
+	};
+	
+	untrusted {
+	};
+};

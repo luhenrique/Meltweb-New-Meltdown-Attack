@@ -1,0 +1,1 @@
+cmd_/home/luiz/Documentos/ZombieLoad/victim/kernel_linux/leaky.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o /home/luiz/Documentos/ZombieLoad/victim/kernel_linux/leaky.ko /home/luiz/Documentos/ZombieLoad/victim/kernel_linux/leaky.o /home/luiz/Documentos/ZombieLoad/victim/kernel_linux/leaky.mod.o;  true
